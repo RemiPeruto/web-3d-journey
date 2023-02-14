@@ -1,0 +1,63 @@
+{
+  "name": "web-3d-journey",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babylonjs/core": "^5.43.1",
+    "@babylonjs/gui": "^5.43.1",
+    "@babylonjs/loaders": "^5.43.1",
+    "@react-three/drei": "^9.40.0",
+    "@react-three/fiber": "^8.9.1",
+    "@sketchfab/viewer-api": "^1.12.1",
+    "@splinetool/react-spline": "^2.2.3",
+    "@splinetool/runtime": "^0.9.143",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/cannon": "^0.1.8",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.3",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "cannon": "^0.6.2",
+    "react": "^18.2.0",
+    "react-babylonjs": "^3.1.15",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.4.3",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "react-unity-webgl": "^9.3.0",
+    "styled-components": "^5.3.6",
+    "three": "^0.146.0",
+    "three-csg-ts": "^3.1.11",
+    "typescript": "^4.8.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "../web-3d-journey/node_modules/.bin/react-scripts start",
+    "build": "../web-3d-journey/node_modules/.bin/react-scripts build",
+    "test": "../web-3d-journey/node_modules/.bin/react-scripts test",
+    "eject": "../web-3d-journey/node_modules/.bin/react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
+  }
+}
