@@ -29,7 +29,6 @@ const useSketchfabViewer = () => {
     useEffect(
         () => {
             // Initialize the viewer
-            // @ts-ignore
             let client = new Sketchfab(viewerIframeRef.current);
             client.init(deer, {
                 success: setApi,
@@ -38,8 +37,7 @@ const useSketchfabViewer = () => {
                 },
             });
         },
-        // We only want to initialize the viewer on first load, so we don't add any dependencies to useEffect
-        []
+        [] // We only want to initialize the viewer on first load, so we don't add any dependencies to useEffect
     );
 
     return [ViewerIframe, api];

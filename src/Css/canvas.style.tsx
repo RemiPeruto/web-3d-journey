@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CssCanvasContainer = styled.div`
-  @keyframes rotate{
+  @keyframes rotate {
     to{ transform:  rotate3d(1, 1, 1, 360deg); }
   }
   animation: rotate 3s linear infinite;

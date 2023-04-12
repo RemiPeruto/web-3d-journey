@@ -1972,7 +1972,7 @@
     },
     {
       "doubleSided": true,
-      "name": "Main",
+      "name": "Scene",
       "normalTexture": {
         "index": 1
       },
